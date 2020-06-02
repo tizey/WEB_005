@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color: #222;
+}
+
+.navbar {
+	background-color: #5b6169 !important;
+	height: 90px !important;
+}
+
+#slides {
+	height: 500px;
+	background: radial-gradient(86% 86% at 50% 14%, #CBEBFB 0%, #75CFF7 100%);
+}
+
+.photo-block {
+	float: left;
+	margin-top: 64px;
+}
+
+.info-block {
+	float: left;
+	margin-top: 140px;
+}
+
+.disp_h {
+	color: white;
+	font-weight: 500;
+	text-shadow: 0px 2px 4px rgba(78, 78, 78, 0.3);
+}
+
+.disp_sub {
+	font-size: 18px;
+	color: white;
+	opacity: 0.8;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+.btn {
+	margin-top: 20px;
+	width: 170px;
+	height: 40px;
+	color: white;
+	border-radius: 0 !important;
+	background-color: #73abda;
+	text-shadow: 0px 2px 4px rgba(78, 78, 78, 0.3);
+}
+
+.btn-mobile{
+	border: none;
+	margin-top: 20px;
+	width: 170px;
+	height: 40px;
+	color: white;
+	border-radius: 0 !important;
+	background-color: #73abda;
+	text-shadow: 0px 2px 4px rgba(78, 78, 78, 0.3);
+}
+.services {
+	margin-top: 50px;
+}
+
+.ser-card {
+
+	/*background-color: red;
+	border: 2px solid green;*/
+	margin-top: 20px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;    /*justify-content: center;*/
+}
+
+.block_zag {
+	display: inline-block;
+	font-weight: 400px;
+	font-size: 25px;
+	margin: 0;
+	padding: 0 15px;
+	background-color: #ffffff;
+}
+
+.title-line {
+	z-index: -1;
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	position: relative;
+	top: -15px;
+}
+.zag_grey{
+	width: 100%;
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+}
+.block_zag-dva{
+
+	z-index: 2;
+	display: inline-block;
+	font-weight: 400px;
+	font-size: 25px;
+	margin: 0;
+	padding: 0 15px;
+	background-color: #d1d1d1;
+}
+.title-line-dva{
+	z-index: 1;
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	position: relative;
+	top: -15px;
+}
+
+.ser-card-img {
+	display: block;
+	margin-top: 20px;
+}
+
+.ser-card-p {
+	width: 300px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.ser-card-h {
+	color: #3674ba;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.about{
+	background-color: #d1d1d1;
+	height: 600px;
+	margin-top: 40px;
+}
+
+.t_tesk{
+	height: 180px;
+
+}
+
+
+.form{
+	
+	height: 200px;
+}
+
+.task-h{
+	font-size: 36px;
+	color: #7c7c7c;	
+}
+
+.stats{
+	margin-top: 35px;
+
+	height: 180px;
+}
+.task-p{
+	font-size: 14px;
+	color: #4e4e4e;	
+	width: 90%;
+	font-weight: 500;
+}
+
+
+
+.map{
+	background: url(../img/map.png);
+	background-size: cover;
+	height: 160px;
+
+}
+
+.stats-h{
+		font-size: 26px;
+	color: #3674ba;	
+}
+
+.bar-container{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #828181;
+	height: 30px;
+}
+
+.skills{
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+  color: white; /* White text color */
+  	background-color: #3674ba;
+}
+
+.html {	width: 90%;	} 
+.css { width: 93%; }
+.photshop { width: 84%; }
+.respon { width: 81%; }
+
+.input-form{
+	margin-top: 10px;
+	height: 30px;
+	background: #f1f1f1;
+	border: 0;
+	color: #7b7b7b;
+	padding-left: 15px;
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	outline: none; 
+}
+
+.input-form-mes{
+	position: relative;
+	margin-top: 10px;
+	height: 95px;
+	background: #f1f1f1;
+	border: 0;
+	width: 100%;
+	outline: none; 
+}
+
+.input-form-mes-p{
+	padding-top: 10px;
+	color: #7b7b7b;
+	padding-left: 15px;
+	font-weight: 500;
+	font-size: 14px;
+	float: left;
+}
+
+.btn-form{
+	bottom: 0;
+right: 0;
+	position: absolute;
+	border: none;
+	margin-top: 20px;
+	width: 130px;
+	height: 35px;
+	color: white;
+	border-radius: 0 !important;
+	background-color: #73abda;
+	text-shadow: 0px 2px 4px rgba(78, 78, 78, 0.3);
+}
+
+.input-form:focus{
+		background: #E9E9E9;
+outline: none; 
+  border: 1px solid #E4E4E4
+}
+
+
+
+.footer{
+	padding-top: 37px;
+	height: 100px;
+	color: #6f6f6f;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width:1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width:992px) and (max-width:1199px) {
+	.disp_h {
+		font-size: 39px;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width:768px) and (max-width:991px) {
+	.info-block {
+		margin-top: 180px;
+	}
+
+	.disp_h {
+		font-size: 28px;
+	}
+
+	.iphone_photo {
+		width: 300px;
+		margin-top: 32px;
+	}
+	
+
+	.disp_sub {
+		font-size: 16px;
+		width: 80%
+	}
+	
+	.form{
+		margin-top: 35px;
+	}
+	.about{
+		height: 980px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+
+
+@media (max-width:768px) {
+	.info-block {
+		margin-top: 150px;
+	}
+
+	.disp_h {
+		font-size: 22px;
+	}
+
+	.iphone_photo {
+		width: 220px;
+		margin-top: 40px;
+	}
+
+	.disp_sub {
+		font-size: 14px;
+		width: 100%
+	}
+	#slides {
+	height: 400px;	
+	}
+	
+	.task-p{
+		width: 100%;
+	}
+	.map{
+		margin-top: 30px;
+	}
+	.form{
+		margin-top: 35px;
+	}
+	.about{
+		height: 1000px;
+	}
+
+}
+
+
+@media (max-width:575px) {
+	.info-block {
+		margin-top: 30px;
+	}
+
+	.disp_h {
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.iphone_photo {
+		
+		display: none;
+	}
+
+	.disp_sub {
+		font-size: 14px;
+		width: 100%;
+		text-align: center;
+	}
+	#slides {
+	height: 400px;	
+	}
+
+	/*
+	.btn-mobile{
+		margin-left: 28%;
+	}
+	*/
+	.carousel-info{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.task-p{
+		font-size: 13px;
+		width: 100%;
+	}
+	.map{
+		margin-top: 35px;
+	}
+	.form{
+		margin-top: 35px;
+	}
+	.about{
+		height: 1000px;
+	}
+	.skills{
+		font-size: 12px;
+		padding-bottom: 8px;
+	}
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:480px) {
+	
+	.task-p{
+		font-size: 12px;
+		width: 100%;
+	}
+	.map{
+		margin-top: 60px;
+	}
+	.form{
+		margin-top: 35px;
+	}
+	.about{
+		height: 1030px;
+	}
+	.skills{
+		font-size: 9px;
+			padding-top: 8px;
+		padding-bottom: 9px;
+	}
+
+}
+
+
+
+
+/* Iphone 5 */
+@media (max-width:320px) {
+	.info-block {
+		margin-top: 20px;
+	}
+
+	.disp_h {
+		font-size: 22px;
+	}
+
+	.iphone_photo {
+		/*width: 220px;
+		margin-top: 40px;*/
+		display: none;
+	}
+
+	.disp_sub {
+		font-size: 14px;
+		width: 100%
+	}
+	#slides {
+	height: 400px;	
+	}
+		.task-p{
+		font-size: 12px;
+		width: 100%;
+	}
+	.map{
+		margin-top: 70px;
+	}
+	.form{
+		margin-top: 35px;
+	}
+	.about{
+		height: 1030px;
+	}
+	.skills{
+		font-weight: 600;
+		font-size: 9px;
+			padding-top: 8px;
+		padding-bottom: 9px;
+	}
+
+}
